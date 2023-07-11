@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Lato;
+			box-sizing: border-box;
+		}
+
+		.flower-main {
+			width: 100%;
+			height: 600px;
+			display: flex;
+			justify-content: center;
+			background: rgba(229, 84, 115, 0.10);
+			margin-bottom: 50px;
+		}
+
+		.flower-main .flower-main-childs {
+			height: 600px;
+			width: 600px;
+			align-self: center;
+			margin-left: 70px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.flower-main-childs .flower-time {
+			height: 400px;
+			width: 500px;
+			margin-top: 100px;
+			align-self: center;
+		}
+
+		.flower-main-childs .flowers {
+			width: 450px;
+			height: 600px;
+		}
+
+		.f {
+			margin-bottom: 10px;
+			margin-top: 40px;
+
+		}
+
+		.i {
+			color: rgba(39, 39, 39, 0.60);
+
+		}
+
+		.but-y {
+			background-color: #E55473;
+			padding: 15px 25px;
+			border-radius: 10px;
+			border: 0;
+			color: aliceblue;
+		}
+
+		.time {
+			height: 600px;
+			width: 350px;
+		}
+
+		.a {
+			font-size: 40px;
+		}
+
+		.container {
+			width: 600px;
+			height: 100px;
+			margin: 0 450px;
+			margin-bottom: 100px;
+		}
+
+		.container .secs {
+			text-align: center;
+			margin-bottom: 6px;
+		}
+
+		.tim {
+			color: (39, 39, 39, 0.60);
+			font-size: small;
+			width: 400px;
+			margin: 0 95px;
+		}
+
+		.container-2 {
+			width: 100%;
+			height: 300px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.container-2 .per {
+			height: 300px;
+			width: 200px;
+			border-top-left-radius: 90px;
+			border-top-right-radius: 90px;
+			margin: 0 10px;
+			display: flex;
+		}
+
+		.main-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.main-container .anchors {
+			align-self: center;
+			margin-top: 10px;
+		}
+
+		.main-container .anchors a {
+			margin: 0 55px;
+			color: black;
+		}
+
+		.fine1 {
+			background-color: rgba(167, 33, 98, 0.15);
+
+		}
+
+		.fine2 {
+			background-color: rgba(5, 151, 160, 0.15);
+
+		}
+
+		.fine3 {
+			background-color: rgba(71, 125, 17, 0.15);
+
+		}
+
+		.fi {
+			width: 150px;
+			margin: 40px 20px 10px;
+			height: 257px;
+
+		}
+
+		.sunglass-flo {
+			width: 100%;
+			height: 400px;
+			display: flex;
+			justify-content: center;
+			background-color: rgba(229, 84, 115, 0.05);
+
+		}
+
+		.sunglass-flo .flower-text {
+			width: 500px;
+			height: 200px;
+			display: flex;
+			margin-top: 140px;
+
+		}
+
+		.flower-text .flower-txt {
+			height: 190px;
+			margin-top: 20px;
+		}
+
+		.sec_flower {
+			margin: 0 80px;
+			margin-bottom: 30px;
+		}
+
+		.txt_flo {
+			color: rgba(39, 39, 39, 0.60);
+			font-size: 12px;
+		}
+
+		.btn-u {
+			height: 40px;
+			width: 90px;
+			margin: 0 180px;
+			border-radius: 4px;
+			background-color: #E55473;
+			border: 0;
+			color: #FFF;
+		}
+
+		.flower-pixs {
+			margin-left: 35px;
+
+		}
+
+		.flower-pixs .flower-pix {
+			height: 200px;
+			width: 300px;
+		}
+
+		#image-2 {
+			height: 260px;
+			width: 210px;
+			margin-top: 100px;
+		}
+
+		.instagram {
+			width: 100%;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.timeline {
+			font-size: 25px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.small {
+			height: 200px;
+			width: 540px;
+			text-align: center;
+			color: rgba(39, 39, 39, 0.60);
+		}
+
+		.flowers_div {
+			width: 100%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.div_1,
+		.div_2,
+		.div_3,
+		.div_4 {
+			margin-right: 13px;
+			height: 196px;
+			width: 200px;
+			align-self: center;
+			display: flex;
+			justify-content: center;
+		}
+
+		.image_3 {
+			width: 100%;
+		}
+
+		.storms-tag {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			height: 200px;
+			width: 850px;
+			background-image: url("Rectangle 9.png");
+			margin-left: 329px;
+			margin-top:50px;
+		}
+
+		.get_deals {
+			height: 150px;
+			width: 250px;
+			align-self: center;
+			display: flex;
+			flex-direction: column;
+			margin-top: 60px;
+			margin-bottom: 20px;
+
+		}
+
+		.input_btn {
+			height: 100px;
+			width: 550px;
+			align-self: center;
+			margin-left: 30px;
+			margin-bottom: 80px;
+		}
+
+		.inp {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		.int {
+			width: 400px;
+			height: 45px;
+			border: 0;
+		}
+
+		.gameout {
+			font-size: 25px;
+		}
+
+		.gamein {
+			color: rgba(39, 39, 39, 0.60);
+		}
+
+		.btnn {
+			background-color: #E55473;
+			margin-left: 10px;
+			height: 40px;
+			width: 100px;
+			border-radius: 5px;
+			border: 0;
+			color: #FFF
+		}
+		.footer{ 
+			border: 1px solid black;
+			height: 200px;
+			width:100%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: #111010; ;
+		}
+		.foot{ 
+			align-self: center;
+			margin-bottom:10px;
+		}
+		.foot_2{ 
+			width:350px;
+			color: rgba(255, 255, 255, 0.90);
+			font-size: 10px;
+			text-align: center;
+		}
+		h5{ 
+			font-size: 25px;
+		}
+		span{ 
+			color:#E55473;
+		}
+		.white{ 
+			color: #FFF;
+		}
+		.foot_3{ 
+			color: rgba(255, 255, 255, 0.40);
+			font-size: 9px;
+		}

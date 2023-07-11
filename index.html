@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flower Shop</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- <style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: Lato;
+			box-sizing: border-box;
+		}
+
+		.flower-main {
+			width: 100%;
+			height: 600px;
+			display: flex;
+			justify-content: center;
+			background: rgba(229, 84, 115, 0.10);
+			margin-bottom: 50px;
+			/* border:1px solid black; */
+		}
+
+		.flower-main .flower-main-childs {
+			/* border:1px solid black; */
+			height: 600px;
+			width: 600px;
+			align-self: center;
+			margin-left: 70px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.flower-main-childs .flower-time {
+			/* border:1px solid black; */
+			height: 400px;
+			width: 500px;
+			margin-top: 100px;
+			align-self: center;
+		}
+
+		.flower-main-childs .flowers {
+			/* border:1px solid black; */
+			width: 450px;
+			height: 600px;
+		}
+
+		.f {
+			margin-bottom: 10px;
+			margin-top: 40px;
+
+		}
+
+		.i {
+			color: rgba(39, 39, 39, 0.60);
+
+		}
+
+		.but-y {
+			/* color: rgba(39, 39, 39, 0.60); */
+			background-color: #E55473;
+			padding: 15px 25px;
+			border-radius: 10px;
+			border: 0;
+			color: aliceblue;
+		}
+
+		.time {
+			height: 600px;
+			width: 350px;
+		}
+
+		.a {
+			font-size: 40px;
+		}
+
+		.container {
+			width: 600px;
+			height: 100px;
+			/* border: 1px solid black; */
+			margin: 0 450px;
+			margin-bottom: 100px;
+		}
+
+		.container .secs {
+			text-align: center;
+			margin-bottom: 6px;
+		}
+
+		.tim {
+			color: (39, 39, 39, 0.60);
+			font-size: small;
+			width: 400px;
+			margin: 0 95px;
+		}
+
+		.container-2 {
+			/* border: 1px solid black; */
+			width: 100%;
+			height: 300px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.container-2 .per {
+			/* border: 1px solid black; */
+			height: 300px;
+			width: 200px;
+			border-top-left-radius: 90px;
+			border-top-right-radius: 90px;
+			/* align-self: center; */
+			margin: 0 10px;
+			display: flex;
+		}
+
+		.main-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.main-container .anchors {
+			align-self: center;
+			margin-top: 10px;
+		}
+
+		.main-container .anchors a {
+			margin: 0 55px;
+			color: black;
+		}
+
+		.fine1 {
+			background-color: rgba(167, 33, 98, 0.15);
+
+		}
+
+		.fine2 {
+			background-color: rgba(5, 151, 160, 0.15);
+
+		}
+
+		.fine3 {
+			background-color: rgba(71, 125, 17, 0.15);
+
+		}
+
+		.fi {
+			width: 150px;
+			margin: 40px 20px 10px;
+			height: 257px;
+
+		}
+
+		.sunglass-flo {
+			width: 100%;
+			height: 400px;
+			/* border: 1px solid black; */
+			display: flex;
+			justify-content: center;
+			background-color: rgba(229, 84, 115, 0.05);
+
+		}
+
+		.sunglass-flo .flower-text {
+			/* border: 1px solid black; */
+			width: 500px;
+			height: 200px;
+			display: flex;
+			margin-top: 140px;
+
+		}
+
+		.flower-text .flower-txt {
+			/* border: 1px solid black; */
+			height: 190px;
+			margin-top: 20px;
+		}
+
+		.sec_flower {
+			margin: 0 80px;
+			margin-bottom: 30px;
+		}
+
+		.txt_flo {
+			color: rgba(39, 39, 39, 0.60);
+			font-size: 12px;
+		}
+
+		.btn-u {
+			height: 40px;
+			width: 90px;
+			margin: 0 180px;
+			border-radius: 4px;
+			background-color: #E55473;
+			border: 0;
+			color: #FFF;
+		}
+
+		.flower-pixs {
+			/* border: 1px solid black; */
+			margin-left: 35px;
+
+		}
+
+		.flower-pixs .flower-pix {
+			/* border:1px solid black; */
+			height: 200px;
+			width: 300px;
+		}
+
+		#image-2 {
+			height: 260px;
+			width: 210px;
+			margin-top: 100px;
+		}
+
+		.instagram {
+			/* border: 1px solid black; */
+			width: 100%;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.timeline {
+			font-size: 25px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.small {
+			height: 200px;
+			width: 540px;
+			text-align: center;
+			color: rgba(39, 39, 39, 0.60);
+		}
+
+		.flowers_div {
+			width: 100%;
+			height: 200px;
+			/* border: 1px solid black; */
+			display: flex;
+			justify-content: center;
+		}
+
+		.div_1,
+		.div_2,
+		.div_3,
+		.div_4 {
+			/* border: 1px solid black; */
+			margin-right: 13px;
+			height: 196px;
+			width: 200px;
+			align-self: center;
+			display: flex;
+			justify-content: center;
+		}
+
+		.image_3 {
+			width: 100%;
+		}
+
+		.storms-tag {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			/* border: 1px solid black; */
+			height: 200px;
+			width: 850px;
+			background-image: url("Rectangle 9.png");
+			margin-left: 329px;
+			margin-top:50px;
+		}
+
+		.get_deals {
+			/* border: 1px solid blue; */
+			height: 150px;
+			width: 250px;
+			align-self: center;
+			display: flex;
+			flex-direction: column;
+			margin-top: 60px;
+			margin-bottom: 20px;
+
+		}
+
+		.input_btn {
+			/* border: 1px solid blue; */
+			height: 100px;
+			width: 550px;
+			align-self: center;
+			/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+			margin-left: 30px;
+			margin-bottom: 40px;
+		}
+
+		.inp {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		.int {
+			width: 400px;
+			height: 45px;
+			border: 0;
+		}
+
+		.gameout {
+			font-size: 25px;
+		}
+
+		.gamein {
+			color: rgba(39, 39, 39, 0.60);
+		}
+
+		.btnn {
+			background-color: #E55473;
+			margin-left: 10px;
+			height: 40px;
+			width: 100px;
+			border-radius: 5px;
+			border: 0;
+			color: #FFF
+		}
+		.footer{ 
+			border: 1px solid black;
+			height: 200px;
+			width:100%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: #111010; ;
+		}
+		.foot{ 
+			align-self: center;
+			margin-bottom:10px;
+		}
+		.foot_2{ 
+			width:350px;
+			color: rgba(255, 255, 255, 0.90);
+			font-size: 10px;
+			text-align: center;
+		}
+		h5{ 
+			font-size: 25px;
+		}
+		span{ 
+			color:#E55473;
+		}
+		.white{ 
+			color: #FFF;
+		}
+		.foot_3{ 
+			color: rgba(255, 255, 255, 0.40);
+			font-size: 9px;
+		}
+	</style> -->
+</head>
+
+<body>
+
+	<header>
+		<div class="flower-main">
+			<div class="flower-main-childs">
+				<div class="flower-time">
+					<h1 class="f a"><b>Let's make <br>beautiful flowers a<br>part of your life.</b></h1>
+					<p class="f i">It is a long established fact that a reader will be distracted by the readable
+						content of a page when looking at its layout.
+						The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+					<button class="f but-y">Shop Now</button>
+				</div>
+			</div>
+			<div class="flower-main-childs">
+				<div class="flowers">
+					<img src="pngwing 10.png" alt="" class="time">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1 class="secs">Our Featured Flowers</h1><br>
+			<p class="secs tim">It is a long established fact that a reader will be distracted by the readable
+				content of a page when looking at its layout.</p>
+		</div>
+
+	</main>
+
+	<div class="main-container">
+
+		<div class="container-2">
+
+			<div class="per fine1">
+				<img src="pngwing 6.png" class="fi">
+			</div>
+
+			<div class="per fine2">
+				<img src="pngwing 5.png" class="fi">
+			</div>
+
+
+			<div class="per fine3">
+				<img src="pngwing 7.png" class="fi">
+			</div>
+		</div>
+		<!--  -->
+
+		<div class="anchors">
+			<a href="#">pink flowers tree</a>
+			<a href="#">pink flowers tree</a>
+			<a href="#">pink flowers tree</a>
+		</div>
+	</div>
+	<br>
+	<br>
+	<!-- This time to be serious -->
+	<div class="sunglass-flo">
+
+		<div class="flower-text">
+			<div class="flower-txt">
+
+				<h2 class="sec_flower">Hot Deal ! Sale Up To 25% <span>Off</span></h2>
+				<p class="sec_flower txt_flo">It is a long established fact that a reader will be distracted by the
+					readable content of a page when looking at its layout.</p>
+				<div class="fine_but">
+					<button class="sec_flower btn-u">Sign Up</button>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="flower-pixs">
+			<div class="flower-pix">
+				<img src="pngwing 8.png" id="image-2">
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<h3 class="timeline">Instagram</h3>
+	<div class="instagram">
+		<p class="small">It is a long established fact that a reader will be distracted by the readable content of a
+			page when looking at its layout.</p>
+	</div>
+
+
+
+	<div class="flowers_div">
+
+		<div class="div_1">
+			<img src="Flower 01.png" class="image_3">
+		</div>
+		<div class="div_2">
+			<img src="Rectangle 4.png" class="image_3">
+
+		</div>
+		<div class="div_3">
+			<img src="Rectangle 5.png" class="image_3">
+		</div>
+		<div class="div_4">
+			<img src="Rectangle 6.png" class="image_3">
+		</div>
+
+	</div>
+
+	<br>
+	<br>
+
+	<div class="storms-tag">
+
+		<div class="get_deals">
+			<h4 class="inp gameout">Get The Latest Deals</h4>
+			<p class="inp gamein">$30 coupon for first shopping</p>
+		</div>
+
+		<div class="input_btn">
+			<input type="text" class="int"><button class="btnn">Subscribe</button>
+		</div>
+	</div>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="footer">
+<h5 class="foot"><b><span>Flower</span><span class="white">Shop</span></b></h5>
+<p class="foot foot_2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<small class="foot foot_3">@2020-2023, FlowerShop.com. All rights reserved. </small>
+</footer>
+
+</body>
+
+</html>
